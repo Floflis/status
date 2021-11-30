@@ -8,6 +8,8 @@ sudo ufw allow 'Nginx HTTP'
 
 sudo apt install curl jq nkf -y
 
+sudo chown -R $USER:$USER /var/www
+
 cat > /var/www/html/status.json << ENDOFFILE
 {
   "daipeg": true,
