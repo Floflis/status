@@ -3,7 +3,9 @@
 sudo apt update
 
 sudo apt install openssl nginx -y
-mv -f /var/www/html/index.nginx-debian.html /var/www/html/index.html
+cp site/* /var/www/html
+rm -rf site
+rm -f /var/www/html/index.nginx-debian.html
 sudo ufw allow 'Nginx HTTP'
 
 sudo apt install curl jq nkf -y
