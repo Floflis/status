@@ -1,16 +1,22 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta charset="utf-8"/>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 <title>Status - Floflis</title>
-<link rel="shortcut icon" href="icon.ico" type="image/x-icon">
-<link rel="icon" href="icon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="icon.ico" type="image/x-icon"/>
+<link rel="icon" href="icon.ico" type="image/x-icon"/>
 </head>
+<body>
 <h1>Floflis Status</h1>
 
 <ul>
-<li><p>Is DAI pegged to USD? <b><element id="daipeg"></element></b></p></li>
-<li><p>DAI now worth <b><element id="daiusd"></element> USD</b></p></li>
+<li><p>Is DAI pegged to USD? <b><element id="daipeg">{cantwork}</element></b></p></li>
+<li><p>DAI now worth <b><element id="daiusd">{cantwork}</element> USD</b></p></li>
 </ul>
 
-<p>Last updated in <element id="lastupdate"></element> (updates every 5 minutes).</p>
+<p><small>Why all these "{cantwork}"? Because once again the <a href="https://ipfs.io/ipfs/QmQEuPoY5FAm6YPBgjwMAwdpeHBZpFPeEfSEJitiia7JEN/" target="_blank">traditional programmers/developers have failed</a> (as every traditional thing is failing - as supposed). This time they have <a href="https://stackoverflow.com/questions/70190537/replace-anything-inside-a-html-tag-id" target="_blank">failed to build a simple tool to change/append things inside an element</a>. There's jq and even an <a href="https://github.com/mgdm/htmlq/issues/33" target="_blank">"jq" version for HTML</a> (its written in Rust, as every brand new open-minded thing is), but none of them have any documentation/tip on how to write instead of only reading/parsing. Y'all will never learn to hear the indigenous and the Brazilian? Y'all never be able to hear at least a bit from Black and trans ppl?</small></p>
+
+<p>Last updated in <element id="lastupdate">{cantwork}</element> (updates every 5 minutes).</p>
 <a href="https://floflis.github.io/" target="_blank">Main site</a> | <a href="https://floflis.github.io/blog" target="_blank">Blog</a> | <a href="https://floflis.github.io/docs" target="_blank">Documentation</a> | <a href="./api.html">DEV</a>
+</body>
+</html>
