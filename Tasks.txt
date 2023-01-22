@@ -1,3 +1,5 @@
+- display ethgas status
+
 - New status: is ipfs.io online
 
-- Better tolerance levels for dai peg: soft pegged (98-1), pegged (1), super pegged (>1), soft broken and broken (<90)
+- Better tolerance levels for dai peg: soft pegged (0.98-1), pegged (1), super pegged (>1), soft broken and broken (<0.90)
